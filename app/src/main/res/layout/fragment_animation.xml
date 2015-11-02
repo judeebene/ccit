@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!--   Note: to add text or string, always go to strings.xml under the values folder add.  -->
+    <!--   eg  <string name="welcomeMsg">Welcome to our school</string>.  -->
+    <!--   and then reference it in your view e.g. @string/welcomeMsg  -->
+    <TextView
+        android:id="@+id/animationMsg"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/animationMsg"/>
+
+</LinearLayout>
